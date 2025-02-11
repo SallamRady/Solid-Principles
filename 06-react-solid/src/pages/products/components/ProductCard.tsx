@@ -3,6 +3,11 @@ import { Product } from "../../../types/Product.type";
 type ProductCardProps = {
   product: Product;
 };
+
+/**
+ * Responsile for rendering product
+ * 
+ */
 export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div>

@@ -3,6 +3,13 @@ import LoadingComponent from "./components/Loading";
 import ProductsList from "./components/ProductsList";
 import useFetchProductsData from "./hooks/useFetchProductsData";
 
+
+/**
+ * Responsile for rendering products page and its components
+ * 
+ * - responsible for fetch products data 
+ * - pass products data to productList component 
+ */
 export default function ProductsPage() {
   const { data: products, isLoading, isError } = useFetchProductsData();
 
